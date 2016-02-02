@@ -467,6 +467,16 @@ MEDIA QUERIES
     .pageTag_wrapper {
         margin-top: 330px
     }
+
+    .infoWrapper.contact {
+    margin-top: 320px;
+    }
+
+    .pictureWrapper.contact {
+    margin-top: 320px;
+    float: left;
+    }
+
 }
 
 @media (max-width: 1200px) {
@@ -540,14 +550,23 @@ MEDIA QUERIES
     .pageTag_wrapper {
         margin-top: 288px; 
     }
+
+     .infoWrapper.contact {
+    margin-top: 278px;
+    }
+
+    .pictureWrapper.contact {
+    margin-top: 278px;
+    float: left;
+    }
 }
 
 
 @media (max-width: 1000px) {
 
-     body {
+     /*body {
         background-color: blue;
-    } 
+    } */
 
     #header { 
         background-color: #fff;
@@ -580,24 +599,11 @@ MEDIA QUERIES
 
 }
 
-@media (max-width: 850px) {
-
-     body {
-        background-color: green;
-    } 
-
-
-     #euphonikOverlay {
-        padding-top: 50px; /*175/1000*/
-    }
-
-}
-
 @media (max-width: 720px) {
 
-    body {
+   /* body {
         background-color: blue;
-    }
+    }*/
 
     .pictureWrapper,  .infoWrapper {
         display: inline-block;
@@ -619,6 +625,11 @@ MEDIA QUERIES
         padding-top: 0px;
     }
 
+    .pictureWrapper.contact {
+        margin-top: 10px;
+        margin-left: 15%;
+    }
+
 }
 
 @media (max-width:600px) {
@@ -629,12 +640,25 @@ MEDIA QUERIES
 
 @media (max-width: 500px) {
 
-    body {
+   /* body {
         background-color: green;
+    }*/
+
+    #title {
+        display: none;
     }
 
     .infoWrapper, .pictureWrapper {
         width: 80%;
+        margin-left: 10%;
+    }
+
+    .infoWrapper.contact {
+        margin-top: 20%
+    }
+
+     .pictureWrapper.contact {
+        margin-top: 10px;
         margin-left: 10%;
     }
 
